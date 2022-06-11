@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> print method </title>
+<script type="text/javascript">
+</script>
+</head>
+<body>
+<h2>Press button to print current window</h2>
+<form>
+<input type="button" value="Print" onclick="window.print()">
+</form>
+</body>
+<html>

@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<head>
+<title>Alert method</title>
+</head>
+<body>
+<script>
+alert("HELLO WORLD");
+</script>
+</body>
+</html>

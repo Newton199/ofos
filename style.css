@@ -1,0 +1,246 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: #f3f5f9;
+}
+
+.dashboard
+{
+    display: flex;
+    position: relative;    
+}
+
+.dashboard .sidebar{
+    position:fixed;
+    width:220px;
+    height:100%;
+    background: rgb(51, 50, 50);
+    padding:30px 0;    
+}
+
+.dashboard .sidebar h2{
+    color:pink; 
+    padding:30px;
+    font-family: Arial; 
+    border-bottom: 1px solid rgba(0,0,0,0.05);  
+}
+
+.dashboard .sidebar ul li{
+    padding:20px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top:1px solid rgba(225,225,225,0.05); 
+}
+
+.dashboard .sidebar ul li a{
+    list-style: none;
+    text-decoration: none;
+    font-family: Comic Sans MS;
+    color:white;
+    font-size: 20px;
+}
+
+.dashboard .sidebar ul li:hover{
+    background-color: white;
+}
+
+.dashboard .sidebar ul li:hover a{
+    color:red;
+}
+
+.dashboard .main_content{
+    width:100%;
+    margin-left: 220px;
+}
+
+.dashboard .main_content .header{
+    background-color: rgb(51, 50, 50);
+    padding-bottom:65px;
+    color:white;
+}
+
+.dashboard .main_content .header .admin{
+    float: right;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.dashboard .main_content .body{
+    padding:20px;
+}
+
+/* Home Page Design */
+.section1_report{
+    display:flex;
+    position:relative;
+    padding:20px;
+}
+.section1_report .total_product{
+    width: 200px;
+    height: 120px;
+    background-color: pink;
+    padding: 10px;
+    margin-right:20px;
+}
+.section1_report .total_order{
+    width: 200px;
+    height: 120px;
+    background-color: rgb(142, 197, 144);
+    padding: 10px;
+    margin-right:20px;
+}
+.section1_report .deliver_order{
+    width: 200px;
+    height: 120px;
+    background-color: rgb(143, 175, 236);
+    padding: 10px;
+    margin-right:20px;
+}
+.section1_report .pending_order{
+    width: 200px;
+    height: 120px;
+    background-color: rgb(250, 113, 113);
+    padding: 10px;
+    margin-right:20px;
+}
+.section1_report h2{
+    color:rgb(66, 55, 55);
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+    border-top:1px solid rgba(225,225,225,0.05);
+}
+.section1_report h1{
+    text-align: center;
+    color:gray;
+}
+
+.section2_order .userOrder  {
+    margin-left:20px;  
+}
+.section2_order .userOrder th{
+     background-color: lightblue;
+     border: 1px solid black;     
+}
+
+.section2_order .userOrder table, th, td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding:6px;
+    font-size:20px;  
+}
+
+.section2_order .confirmbtn{
+    background-color: green;
+    color:white;
+    border:none;
+    border-radius: 2px;
+    padding:3px;
+    font-family: arial;
+    font-weight: bold;
+}
+.section2_order .viewbtn{
+    background-color: blue;
+    color:white;
+    border:none;
+    border-radius: 2px;
+    padding:8px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+
+
+/* Menu design */
+.menubody{
+    display:flex;
+    position:relative;
+    padding: 20px;
+}
+
+.menubody .menuform{
+    width: 300px;
+    height: 600px;
+    background-color: white;
+    padding: 10px;
+    margin-right:20px;
+}
+.menubody .menuform .formtitle{
+    padding: 15px;
+    background-color: gray;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+}
+.menubody .menuform .formdetails{
+    padding-top:15px;
+}
+.menubody .menuform .formdetails input[type=text]{
+    width:90%;
+    padding:10px 12px;
+    margin-top:8px;
+    margin-bottom:8px;
+}
+.menubody .menuform .formdetails .addbtn{
+    background-color:green;
+    color:white;
+    width:100%;
+    border:none;
+    padding:15px 20px;
+    margin:80px 0px;
+    font-size:20px;
+}
+
+/* Food Menu Table Design */
+.menubody .productlist{
+    width: 600px;
+    height: 100%;
+    background-color: white;
+    padding: 15px;
+}
+
+.menubody .productlist table, th, td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding:6px;
+    font-size:20px;  
+}
+
+.foodeditbtn{
+    padding:10px 25px;
+    font-size: 18px;
+    color: white;
+    background-color: blue;
+    border:none;
+    font-family: arial;
+    border-radius: 2px;
+}
+.fooddeletebtn{
+    padding:10px 10px;
+    font-size: 18px;
+    color: white;
+    background-color: red;
+    border:none;
+    font-family: arial;
+    border-radius: 2px;
+}
+.dashboard .sidebar .home{
+    color:red;
+    font-weight: bold;
+}
+.dashboard .sidebar .managefood{
+    color:red;
+    font-weight: bold;
+}
+.dashboard .sidebar .orderfood{
+    color:red;
+    font-weight: bold;
+}
+.dashboard .sidebar .changepassword{
+    color:red;
+    font-weight: bold;
+}
+.dashboard .sidebar .feedback{
+    color:red;
+    font-weight: bold;
+}
+
